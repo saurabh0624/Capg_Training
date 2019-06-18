@@ -1,0 +1,15 @@
+On Linux instance (EC2 )
+
+    sudo apt-get update && sudo apt-get install -y docker.io
+    cd ~/abghode-code/
+    
+    ls build.gradle
+    ls Dockerfile
+    sudo docker build -t sjaiswa5/boot .
+        sudo docker run -p 5000:5000 sjaiswa5/boot
+
+on your host machine,
+
+	scp -r -i workstation-boot-keypair.pem ./demo ubuntu@13.233.17.30:/home/ubuntu/<corp-id>-code
+
+		

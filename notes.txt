@@ -5,7 +5,116 @@ zipStoreBase=GRADLE_USER_HOME
 zipStorePath=wrapper/dists
 distributionUrl=https\://services.gradle.org/distributions/gradle-2.2.1-bin.zip
 
-
+http://localhost:5000/#/shipwrecks
 
 https://www.slideshare.net/adityakonarde/introduction-to-docker-63666306
 https://www.slideshare.net/dotCloud/docker-intro-november
+
+sudo docker build -t abghode/boot . 
+sudo docker run -p 5000:5000 abghode/boot 
+
+
+
+**************
+13.233.17.30:5000
+please try this on your phone browser
+**************
+
+ssh -i "workstation-boot-keypair.pem" ubuntu@ec2-13-233-17-30.ap-south-1.compute.amazonaws.com 
+to put code in aws ec**
+ 
+scp -r -i workstation-boot-keypair.pem ./demo ubuntu@13.233.17.30:/home/ubuntu/<corp-id>-code 
+run 
+
+
+sudo apt-get update && sudo apt-get install -y docker.io 
+ 
+
+
+===========================
+
+check for .pem file 
+ssh -i "workstation-boot-keypair.pem" ubuntu@ec2-13-233-17-30.ap-south-1.compute.amazonaws.com 
+will take us to linux machine
+
+ubuntu@ip-XXXXXXXXXXXXXXX
+
+2 bash instance where .pem file is located
+	1 for win
+	other for unicx  instance
+
+
+In Win :
+scp -r -i workstation-boot-keypair.pem ./demo ubuntu@13.233.17.30:/home/ubuntu/<corp-id>-code 
+project recursivery added 
+project and public id
+
+Unix instance:
+in unbuntu instance
+sudo apt-get update && sudo apt-get install -y docker.io 
+
+
+=> can now see our code
+###   cd -/<user>-code
+
+
+ls build.gradle
+   Docker File
+## add these 2 files
+
+
+sudo docker build -t <user>/boot 
+sudo docker run -p 5000:5000	
+o/p not to be displayed		-p
+port no. 5000
+
+
+======================================
+
+scp -r -i workstation-boot-keypair.pem ./demo ubuntu@13.233.17.30:/home/ubuntu/sjaiswa5-code 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
